@@ -4,17 +4,17 @@ class Engineer extends Employee {
     constructor(name, id, email, github) {
         super(name, id, email);
         this.github = github;
-        this.validateGitHub();
+        // this.validateGitHub();
     }
 
-    validateGitHub() {
-        // This validation assumes any string is valid
-        if (typeof this.github !== 'string') {
-            throw new Error('GitHub username must be a string.');
-        }
-    }
+    // validateGitHub() {
+    //     // This validation assumes any string is valid
+    //     if (typeof this.github !== 'string') {
+    //         throw new Error('GitHub username must be a string.');
+    //     }
+    // }
 
-    getGitHub() {
+    getGithub() {
         return this.github;
     }
 
