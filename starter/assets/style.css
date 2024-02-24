@@ -1,0 +1,91 @@
+:root {
+    --color-base-hue: 180;
+    --color-contrast-hue: 360;
+    --color-bg-dark: hsl(var(--color-base-hue), 100%, 18%);
+    --color-bg-light: hsl(var(--color-base-hue), 100%, 88%);
+    --color-contrast-dark: hsl(var(--color-contrast-hue), 100%, 18%);
+    --color-contrast-light: hsl(var(--color-contrast-hue), 100%, 88%);
+}
+
+body{
+    background: linear-gradient(to bottom, var(--color-bg-dark), var(--color-bg-light));
+    background-size: cover;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+h3 {
+    font-size: 1em;
+}
+li{
+    font-size: 0.7em;
+    font-weight: bold;
+}
+
+.list-group-item{
+    background: linear-gradient(to right, hsl(180, 100%, 88%), hsl(180, 100%, 98%));
+    border: 1px solid var(--color-bg-dark);
+}
+
+.team-heading{
+    background-color: var(--color-bg-dark);
+    color: var(--color-bg-light);
+    border-bottom: 5px solid var(--color-bg-light);
+}
+
+.employee-card{
+    background-color: var(--color-bg-dark);
+    color: var(--color-bg-light);
+}
+
+.card{
+    margin: 0.5rem;
+    padding: 0;
+    color: var(--color-bg-dark);
+    text-align: center;
+}
+
+.card-header{
+    background-color: var(--color-bg-light);
+    color: var(--color-bg-dark);
+    text-align: center;
+}
+
+.card-body{
+    background: linear-gradient(to right, var(--color-bg-dark), var(--color-bg-light));
+}
+
+.engineerIcon, .engineerTitle{
+        color: hsl(276, 100%, 38%);
+}
+
+.internIcon, .internTitle{
+    color: hsl(101, 100%, 38%);
+}
+
+.managerIcon, .managerTitle{
+    color: hsl(327, 100%, 38%);
+}
+
+.engineerBody{
+    background: linear-gradient(to bottom, hsl(276, 100%, 38%), var(--color-bg-light));
+}
+
+.internBody{
+    background: linear-gradient(to bottom, hsl(101, 100%, 38%), var(--color-bg-light));
+}
+.managerBody{
+    background: linear-gradient(to bottom, hsl(327, 100%, 38%), var(--color-bg-light));
+}
