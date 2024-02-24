@@ -39,12 +39,13 @@ Now you're all set to use the application!
 ### A Responsive Design
 The page styling has been designed to guarantee a seamless and engaging experience across various screen sizes. From the expansive desktop view:
 
-![Desktop View](https://github.com/designs-by-kate/Team-Profile-Generator/assets/146155569/5c73e291-f047-4ef9-bdcf-18f0f32b05e2)
+![Desktop View](https://github.com/designs-by-kate/Team-Profile-Generator/assets/146155569/97573576-731a-46ee-a8f5-6f55a1caba3c)
 
 to the versatile tablet display and the compact mobile view:
 
-![Tablet View](https://github.com/designs-by-kate/Team-Profile-Generator/assets/146155569/65f7f2e2-4335-4e95-bc2f-d6de9c207b7e)
-![Mobile View](https://github.com/designs-by-kate/Team-Profile-Generator/assets/146155569/b3b6b748-1bb2-4cab-92b3-8bc933bdcb8a)
+![Tablet View](https://github.com/designs-by-kate/Team-Profile-Generator/assets/146155569/9e7249aa-79eb-4609-966c-656304aeee64)
+![Mobile View](https://github.com/designs-by-kate/Team-Profile-Generator/assets/146155569/c0ed37eb-5729-4f95-9233-3513d0c36acd)
+
 
 The design effortlessly adapts to ensure an optimal viewing experience for all users.
 
