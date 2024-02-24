@@ -1,10 +1,7 @@
 :root {
-    --color-base-hue: 180;
-    --color-contrast-hue: 360;
+    --color-base-hue: 220;
     --color-bg-dark: hsl(var(--color-base-hue), 100%, 18%);
     --color-bg-light: hsl(var(--color-base-hue), 100%, 88%);
-    --color-contrast-dark: hsl(var(--color-contrast-hue), 100%, 18%);
-    --color-contrast-light: hsl(var(--color-contrast-hue), 100%, 88%);
 }
 
 body{
@@ -19,6 +16,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
     margin-bottom: 10px;
 }
+
 h1 {
     font-size: 4em;
 }
@@ -26,9 +24,11 @@ h1 {
 h2 {
     font-size: 1.5em;
 }
+
 h3 {
     font-size: 1em;
 }
+
 li{
     font-size: 0.7em;
     font-weight: bold;
@@ -68,7 +68,7 @@ li{
 }
 
 .engineerIcon, .engineerTitle{
-        color: hsl(276, 100%, 38%);
+    color: hsl(276, 100%, 38%);
 }
 
 .internIcon, .internTitle{
