@@ -31,6 +31,11 @@ class Employee {
 
     getName() {
         return this.name;
+        // validateName() {
+        //         if (typeof this.name !== 'string' || this.name.trim() == '') {
+        //             throw new Error('Name must be a non-empty string.');
+        //         }
+        //     }
     }
 
     getId() {
