@@ -1,7 +1,7 @@
-// creates the team
+// Function to generate the HTML content for the entire team
 const generateTeam = team => {
 
-    // creates the manager html
+    // Function to generate HTML for the manager
     const generateManager = manager => {
         return `
         <div class="card col-lg-2 col-md-4 col-sm-12 mb-4 employee-card">
@@ -20,7 +20,7 @@ const generateTeam = team => {
         `;
     };
 
-    // creates the html for engineers
+    // Function to generate HTML for an engineer
     const generateEngineer = engineer => {
         return `
         <div class="card col-lg-2 col-md-4 col-sm-12 mb-4 employee-card">
@@ -39,7 +39,7 @@ const generateTeam = team => {
         `;
     };
 
-    // creates the html for interns
+    // Function to generate HTML for an intern
     const generateIntern = intern => {
         return `
         <div class="card col-lg-2 col-md-4 col-sm-12 mb-4 employee-card">
@@ -57,29 +57,31 @@ const generateTeam = team => {
         </div>
         `;
     };
-
+    // Array to store generated HTML
     const html = [];
-
+    // Push manager HTML to the array
     html.push(team
         .filter(employee => employee.getRole() === "Manager")
         .map(manager => generateManager(manager))
     );
+    // Push engineer HTML to the array
     html.push(team
         .filter(employee => employee.getRole() === "Engineer")
         .map(engineer => generateEngineer(engineer))
         .join("")
     );
+    // Push intern HTML to the array
     html.push(team
         .filter(employee => employee.getRole() === "Intern")
         .map(intern => generateIntern(intern))
         .join("")
     );
-
+    // Join all HTML elements and return
     return html.join("");
 
 }
 
-// exports function to generate entire page
+// Exporting the function to generate the entire HTML page
 module.exports = team => {
 
     return `
